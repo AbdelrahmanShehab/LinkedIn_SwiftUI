@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63AD97472A016857002C9F8F /* LinkedInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD97462A016857002C9F8F /* LinkedInApp.swift */; };
+		63AD97492A016857002C9F8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD97482A016857002C9F8F /* ContentView.swift */; };
+		63AD974B2A016859002C9F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD974A2A016859002C9F8F /* Assets.xcassets */; };
+		63AD974E2A016859002C9F8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63AD974D2A016859002C9F8F /* Preview Assets.xcassets */; };
+		63AD97582A01693B002C9F8F /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD97572A01693B002C9F8F /* NetworkModel.swift */; };
+		63AD975A2A0169CC002C9F8F /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD97592A0169CC002C9F8F /* PostModel.swift */; };
+		63AD975C2A016A19002C9F8F /* NetworkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD975B2A016A19002C9F8F /* NetworkData.swift */; };
+		63AD975E2A016A2D002C9F8F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD975D2A016A2D002C9F8F /* PostData.swift */; };
+		63AD97602A016A5E002C9F8F /* SearschBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD975F2A016A5E002C9F8F /* SearschBarView.swift */; };
+		63AD97622A016C9C002C9F8F /* MyNetworkScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AD97612A016C9C002C9F8F /* MyNetworkScreenView.swift */; };
+		63F58C2A2A016FBA00A5E76E /* InvetationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C292A016FBA00A5E76E /* InvetationView.swift */; };
+		63F58C2F2A01772F00A5E76E /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C2E2A01772F00A5E76E /* PostCardView.swift */; };
+		63F58C312A017ADC00A5E76E /* SocialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C302A017ADC00A5E76E /* SocialViewModel.swift */; };
+		63F58C332A017B1E00A5E76E /* SocialViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C322A017B1E00A5E76E /* SocialViewData.swift */; };
+		63F58C352A017B8800A5E76E /* ProfileAndPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C342A017B8800A5E76E /* ProfileAndPostView.swift */; };
+		63F58C372A017C6100A5E76E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C362A017C6100A5E76E /* PostView.swift */; };
+		63F58C392A017F8F00A5E76E /* TabScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C382A017F8F00A5E76E /* TabScreenView.swift */; };
+		63F58C3B2A017FBA00A5E76E /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F58C3A2A017FBA00A5E76E /* HomeScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63AD97432A016857002C9F8F /* LinkedIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkedIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AD97462A016857002C9F8F /* LinkedInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInApp.swift; sourceTree = "<group>"; };
+		63AD97482A016857002C9F8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63AD974A2A016859002C9F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63AD974D2A016859002C9F8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63AD97572A01693B002C9F8F /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		63AD97592A0169CC002C9F8F /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		63AD975B2A016A19002C9F8F /* NetworkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkData.swift; sourceTree = "<group>"; };
+		63AD975D2A016A2D002C9F8F /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		63AD975F2A016A5E002C9F8F /* SearschBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearschBarView.swift; sourceTree = "<group>"; };
+		63AD97612A016C9C002C9F8F /* MyNetworkScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreenView.swift; sourceTree = "<group>"; };
+		63F58C292A016FBA00A5E76E /* InvetationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvetationView.swift; sourceTree = "<group>"; };
+		63F58C2E2A01772F00A5E76E /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		63F58C302A017ADC00A5E76E /* SocialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewModel.swift; sourceTree = "<group>"; };
+		63F58C322A017B1E00A5E76E /* SocialViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewData.swift; sourceTree = "<group>"; };
+		63F58C342A017B8800A5E76E /* ProfileAndPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndPostView.swift; sourceTree = "<group>"; };
+		63F58C362A017C6100A5E76E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		63F58C382A017F8F00A5E76E /* TabScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreenView.swift; sourceTree = "<group>"; };
+		63F58C3A2A017FBA00A5E76E /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63AD97402A016857002C9F8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63AD973A2A016857002C9F8F = {
+			isa = PBXGroup;
+			children = (
+				63AD97452A016857002C9F8F /* LinkedIn */,
+				63AD97442A016857002C9F8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63AD97442A016857002C9F8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63AD97432A016857002C9F8F /* LinkedIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63AD97452A016857002C9F8F /* LinkedIn */ = {
+			isa = PBXGroup;
+			children = (
+				63AD97562A01690B002C9F8F /* Views */,
+				63AD97542A0168FA002C9F8F /* Models */,
+				63AD97552A016903002C9F8F /* Data */,
+				63AD97462A016857002C9F8F /* LinkedInApp.swift */,
+				63AD97482A016857002C9F8F /* ContentView.swift */,
+				63AD974A2A016859002C9F8F /* Assets.xcassets */,
+				63AD974C2A016859002C9F8F /* Preview Content */,
+			);
+			path = LinkedIn;
+			sourceTree = "<group>";
+		};
+		63AD974C2A016859002C9F8F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63AD974D2A016859002C9F8F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63AD97542A0168FA002C9F8F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63AD97572A01693B002C9F8F /* NetworkModel.swift */,
+				63AD97592A0169CC002C9F8F /* PostModel.swift */,
+				63F58C302A017ADC00A5E76E /* SocialViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		63AD97552A016903002C9F8F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				63AD975B2A016A19002C9F8F /* NetworkData.swift */,
+				63AD975D2A016A2D002C9F8F /* PostData.swift */,
+				63F58C322A017B1E00A5E76E /* SocialViewData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		63AD97562A01690B002C9F8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63AD975F2A016A5E002C9F8F /* SearschBarView.swift */,
+				63AD97612A016C9C002C9F8F /* MyNetworkScreenView.swift */,
+				63F58C292A016FBA00A5E76E /* InvetationView.swift */,
+				63F58C2E2A01772F00A5E76E /* PostCardView.swift */,
+				63F58C342A017B8800A5E76E /* ProfileAndPostView.swift */,
+				63F58C362A017C6100A5E76E /* PostView.swift */,
+				63F58C382A017F8F00A5E76E /* TabScreenView.swift */,
+				63F58C3A2A017FBA00A5E76E /* HomeScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63AD97422A016857002C9F8F /* LinkedIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63AD97512A016859002C9F8F /* Build configuration list for PBXNativeTarget "LinkedIn" */;
+			buildPhases = (
+				63AD973F2A016857002C9F8F /* Sources */,
+				63AD97402A016857002C9F8F /* Frameworks */,
+				63AD97412A016857002C9F8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkedIn;
+			productName = LinkedIn;
+			productReference = 63AD97432A016857002C9F8F /* LinkedIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63AD973B2A016857002C9F8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					63AD97422A016857002C9F8F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 63AD973E2A016857002C9F8F /* Build configuration list for PBXProject "LinkedIn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63AD973A2A016857002C9F8F;
+			productRefGroup = 63AD97442A016857002C9F8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63AD97422A016857002C9F8F /* LinkedIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63AD97412A016857002C9F8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63AD974E2A016859002C9F8F /* Preview Assets.xcassets in Resources */,
+				63AD974B2A016859002C9F8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63AD973F2A016857002C9F8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F58C372A017C6100A5E76E /* PostView.swift in Sources */,
+				63AD97582A01693B002C9F8F /* NetworkModel.swift in Sources */,
+				63F58C352A017B8800A5E76E /* ProfileAndPostView.swift in Sources */,
+				63F58C3B2A017FBA00A5E76E /* HomeScreenView.swift in Sources */,
+				63F58C392A017F8F00A5E76E /* TabScreenView.swift in Sources */,
+				63F58C312A017ADC00A5E76E /* SocialViewModel.swift in Sources */,
+				63AD97602A016A5E002C9F8F /* SearschBarView.swift in Sources */,
+				63F58C332A017B1E00A5E76E /* SocialViewData.swift in Sources */,
+				63F58C2F2A01772F00A5E76E /* PostCardView.swift in Sources */,
+				63AD975E2A016A2D002C9F8F /* PostData.swift in Sources */,
+				63AD975A2A0169CC002C9F8F /* PostModel.swift in Sources */,
+				63AD97492A016857002C9F8F /* ContentView.swift in Sources */,
+				63F58C2A2A016FBA00A5E76E /* InvetationView.swift in Sources */,
+				63AD975C2A016A19002C9F8F /* NetworkData.swift in Sources */,
+				63AD97472A016857002C9F8F /* LinkedInApp.swift in Sources */,
+				63AD97622A016C9C002C9F8F /* MyNetworkScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63AD974F2A016859002C9F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63AD97502A016859002C9F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63AD97522A016859002C9F8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedIn/Preview Content\"";
+				DEVELOPMENT_TEAM = 4GT4BFW9QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shehab.org.LinkedIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63AD97532A016859002C9F8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LinkedIn/Preview Content\"";
+				DEVELOPMENT_TEAM = 4GT4BFW9QG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shehab.org.LinkedIn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63AD973E2A016857002C9F8F /* Build configuration list for PBXProject "LinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AD974F2A016859002C9F8F /* Debug */,
+				63AD97502A016859002C9F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63AD97512A016859002C9F8F /* Build configuration list for PBXNativeTarget "LinkedIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63AD97522A016859002C9F8F /* Debug */,
+				63AD97532A016859002C9F8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63AD973B2A016857002C9F8F /* Project object */;
+}
